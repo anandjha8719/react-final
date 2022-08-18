@@ -1,0 +1,72 @@
+.form{
+  width: auto;
+  height: auto;
+  padding: 8px;
+  outline: none;
+}
+.input-box {
+  width: 200px;
+  height: 40px;
+  padding: 8px;
+  outline: none;
+  border: 1px solid grey;
+  border-radius: 12px;
+}
+
+
+/* CSS */
+.submit-button {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.submit-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+
+.submit-button:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}
+
+.other-page{
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 0.7em 1.4em 0.7em 1.1em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(0deg, rgba(20,167,62,1) 0%, rgba(102,247,113,1) 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #14a73e98;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.other-page:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #14a73e98;
+}
+.other-page:active {
+  box-shadow: 0 0.3em 1em -0.5em #14a73e98;
+}

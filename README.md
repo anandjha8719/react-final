@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## this project is to show the data in graph
+* dependencies used: - recharts - to visualize the data, xlsx - to read the file data.
 
 ## Available Scripts
 
