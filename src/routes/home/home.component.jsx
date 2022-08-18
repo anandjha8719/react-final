@@ -1,14 +1,15 @@
-import { Outlet } from 'react-router-dom';
-
-import Directory from '../../components/directory/directory.component';
+import InputTextarea from "../../components/input-textarea/input-textarea.component";
+import OutputSection from "../../components/output-section/output-section.component";
 
 const Home = () => {
   return (
-    <div>
-      <Directory />
-      <Outlet />
+    <div className="home-container">
+      <section className="markdown">
+        <InputTextarea />
+        <OutputSection />
+      </section>
     </div>
   );
-};
+}
 
 export default Home;
